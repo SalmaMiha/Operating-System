@@ -16,6 +16,9 @@ int main()
             cout<<"R"<<j<<":";
             cin>>max[i][j];
         }
+    }
+    for(i=0;i<p;i++)
+    {
         cout<<"Allocation for P"<<i<<":\n";
         for(j=0;j<r;j++)
         {
